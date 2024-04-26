@@ -1,0 +1,45 @@
+.infos-bar{
+    background-color: #fff;
+    padding: 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid #00000094;
+    margin-top: 25px;
+
+    &__infos {
+        padding: 0 40px;
+        display: flex;
+        gap: 40px;
+
+            &__item{
+                padding: auto;
+                font-size: 14px;
+                //color: #000;
+
+                    b {
+                        font-size: 18px;
+                        display: block;
+                        //color:#000;
+                    }
+                }
+            }
+
+            @media (max-width: 640px) {
+                display: block;
+                padding: 10px;
+
+                &__infos{
+                    display: block;
+                    
+                    &__item{
+                        margin-bottom: 24px;
+                    }
+                }
+            }
+
+            @media (max-width: 1024px) {
+                &__infos{
+                    gap: 16px;
+                }
+            }
+}
