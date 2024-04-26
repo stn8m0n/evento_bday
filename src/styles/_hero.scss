@@ -3,10 +3,10 @@
 .hero {
     padding-top: 64px;
     padding-bottom: 100px;
-    background-image: url(../images/fundo.png);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    background-image: linear-gradient(orangered,orange);
 
     .container {
         position: relative;
@@ -18,7 +18,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: variables.$secondaryTextColor;
+        background-image: linear-gradient(orangered,orange);
         content: '';
         opacity: .7;
     }
@@ -34,15 +34,16 @@
 
     &__logo {
         margin: 0 auto;
-        height: 80px;
+        height: 480px;
         display: block;
+        border-radius: 50%;
     }
 
     @media (max-width: 640px) {
         padding: 40px 0;
 
         &__logo {
-            height: 40px;
+            height: 200px;
         }
 
         &__text {
