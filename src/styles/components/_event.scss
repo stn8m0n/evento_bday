@@ -2,7 +2,7 @@
     padding: 80px;
 
     &--bparty {
-        background-image: linear-gradient(red,orange);
+        background-image: linear-gradient(orange, red);
     }
 
     &--gift {
@@ -22,6 +22,7 @@
 
     &__image {
         max-width: 360px;
+        border-radius: 50%;
 
     }
     &__details {
