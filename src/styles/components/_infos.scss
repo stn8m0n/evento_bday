@@ -1,9 +1,11 @@
+@use '../variables';
+
 .infos-bar{
-    background-color: #fff;
+    background-color: variables.$textColor;
     padding: 16px 24px;
     display: flex;
     justify-content: center;
-    border: 2px solid #00000094;
+    border: 2px solid variables.$border;
     margin-top: 25px;
 
     &__infos {
