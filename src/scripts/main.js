@@ -23,6 +23,6 @@ const contaAsHoras = setInterval(function() {
 
     if (distanciaAteOEvento < 0) {
         clearInterval(contaAsHoras);
-        document.getElementById('contador').innerHTML = 'Evento expirado';
+        document.getElementById('contador').innerHTML = 'Xiii... agora só ano que vem!';
     }
 }, 1000);
